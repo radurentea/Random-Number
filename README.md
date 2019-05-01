@@ -1,9 +1,11 @@
-#RANDOM NUMBERS GENERATOR
-1.Enter how many random numbers you want.
-2.Enter what's the lower limit of the numbers. 
-3.Enter what's the upper limit of the numbers.
+# RANDOM NUMBERS GENERATOR
 
-Ex:
+##How the program works:
+1. Enter how many random numbers you want.
+2. Enter what's the lower limit of the numbers. 
+3. Enter what's the upper limit of the numbers.
+
+###Example:
 1. 10
 2. 100
 3. 0
