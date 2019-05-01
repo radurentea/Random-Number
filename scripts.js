@@ -1,9 +1,3 @@
-//Creates a random number with a lower and upper limit
-function randomNumber(upper, lower)
-{
-    return Math.floor(Math.random() * (upper - lower + 1)) + lower;
-}
-
 var counter;
 var input;
 var input2;
@@ -20,6 +14,14 @@ numberInput = Number(input);
 lowerLimit = Number(input2);
 upperLimit = Number(input3);
 counter = 0;
+
+
+//Creates a random number with a lower and upper limit
+function randomNumber(upper, lower)
+{
+    return Math.floor(Math.random() * (upper - lower + 1)) + lower;
+}
+
 
 //verifies if the input is a number
 if (isNaN(numberInput) || isNaN(lowerLimit) || isNaN(upperLimit))
